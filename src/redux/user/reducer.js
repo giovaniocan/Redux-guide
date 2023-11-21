@@ -1,8 +1,11 @@
+
 import { UserActionTypes } from "./action-types";
+
 
 const initialState = {
   currentUser: null,
 };
+
 
 export const userReducer = (state = initialState, action) => {
   switch (action.type) {

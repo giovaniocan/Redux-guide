@@ -1,3 +1,4 @@
+
 import { configureStore } from "@reduxjs/toolkit";
 import logger from "redux-logger";
 
@@ -8,4 +9,3 @@ const store = configureStore({
     middleware: [logger]
 })
 
-export default store;
